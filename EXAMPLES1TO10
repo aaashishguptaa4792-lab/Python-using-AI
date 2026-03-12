@@ -1,0 +1,148 @@
+# 1.Problem Statement:
+class Student:    
+     def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+s1 = Student("Ashish", 85)
+
+print("Student Name:", s1.name)
+print("Student Marks:", s1.marks)   
+
+
+# 2.Problem Statement:
+class Car:
+
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+car1 = Car("Toyota", "Corolla")
+
+# Display car details
+print("Car Brand:", car1.brand)
+print("Car Model:", car1.model)
+
+
+# 3.Problem Statement:
+class Employee:
+    
+    # constructor
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+# creating object
+emp1 = Employee("Ashuu", 50000)
+
+# displaying employee details
+print("Employee Name:", emp1.name)
+print("Employee Salary:", emp1.salary)
+
+# 4.Problem Statement:
+class Rectangle:
+
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+    def area(self):
+        return self.length * self.width
+
+rect1 = Rectangle(10, 5)
+print("Length:", rect1.length)
+print("Width:", rect1.width)
+print("Area of Rectangle:", rect1.area())
+
+
+
+# 5.Problem Statement:
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+
+acc1 = BankAccount("Aman", 25000)
+
+print("Account Holder Name:", acc1.name)
+print("Account Balance:", acc1.balance)
+
+#example 6
+class Circle:
+
+  
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+
+c1 = Circle(5)
+
+
+print("Radius:", c1.radius)
+print("Area of Circle:", c1.area())
+        
+
+
+
+
+#example 7
+class Laptop:
+
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+l1 = Laptop("HP", 60000)
+
+print("Laptop Brand:", l1.brand)
+print("Laptop Price:", l1.price)
+
+
+
+
+#example 8
+class Book:
+
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+book1 = Book("Python Programming", "James")
+
+print("Book Title:", book1.title)
+print("Author:", book1.author)
+
+
+
+
+#example 9
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        
+        self.age = age
+dog1 = Dog("Tommy", 3)
+
+print("Dog Name:", dog1.name)
+print("Dog Age:", dog1.age)
+
+
+
+
+#example 10
+class Mobile:
+
+
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+
+mobile1 = Mobile("Samsung", 25000)
+
+
+print("Mobile Brand:", mobile1.brand)
+print("Mobile Price:", mobile1.price)
+    
